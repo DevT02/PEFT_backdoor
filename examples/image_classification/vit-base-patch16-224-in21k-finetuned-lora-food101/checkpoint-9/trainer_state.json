@@ -1,7 +1,7 @@
 {
-  "best_metric": 0.862,
+  "best_metric": 0.7783375314861462,
   "best_model_checkpoint": "vit-base-patch16-224-in21k-finetuned-lora-food101\\checkpoint-9",
-  "epoch": 1.0,
+  "epoch": 2.769230769230769,
   "eval_steps": 500,
   "global_step": 9,
   "is_hyper_param_search": false,
@@ -9,17 +9,35 @@
   "is_world_process_zero": true,
   "log_history": [
     {
-      "epoch": 1.0,
-      "eval_accuracy": 0.862,
-      "eval_loss": 0.6309201717376709,
-      "eval_runtime": 1.9929,
-      "eval_samples_per_second": 250.897,
-      "eval_steps_per_second": 2.007,
+      "epoch": 0.9230769230769231,
+      "eval_accuracy": 0.20151133501259447,
+      "eval_loss": 1.9687585830688477,
+      "eval_runtime": 0.7827,
+      "eval_samples_per_second": 507.249,
+      "eval_steps_per_second": 5.111,
+      "step": 3
+    },
+    {
+      "epoch": 1.8461538461538463,
+      "eval_accuracy": 0.672544080604534,
+      "eval_loss": 1.496027946472168,
+      "eval_runtime": 0.7694,
+      "eval_samples_per_second": 516.019,
+      "eval_steps_per_second": 5.199,
+      "step": 6
+    },
+    {
+      "epoch": 2.769230769230769,
+      "eval_accuracy": 0.7783375314861462,
+      "eval_loss": 1.208558201789856,
+      "eval_runtime": 0.7255,
+      "eval_samples_per_second": 547.197,
+      "eval_steps_per_second": 5.513,
       "step": 9
     }
   ],
   "logging_steps": 10,
-  "max_steps": 45,
+  "max_steps": 15,
   "num_input_tokens_seen": 0,
   "num_train_epochs": 5,
   "save_steps": 500,
@@ -35,7 +53,7 @@
       "attributes": {}
     }
   },
-  "total_flos": 3.51742482395136e+17,
+  "total_flos": 3.715351160009933e+17,
   "train_batch_size": 128,
   "trial_name": null,
   "trial_params": null

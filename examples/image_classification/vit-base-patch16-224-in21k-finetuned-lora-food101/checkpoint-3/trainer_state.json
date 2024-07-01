@@ -1,0 +1,42 @@
+{
+  "best_metric": 0.20151133501259447,
+  "best_model_checkpoint": "vit-base-patch16-224-in21k-finetuned-lora-food101\\checkpoint-3",
+  "epoch": 0.9230769230769231,
+  "eval_steps": 500,
+  "global_step": 3,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.9230769230769231,
+      "eval_accuracy": 0.20151133501259447,
+      "eval_loss": 1.9687585830688477,
+      "eval_runtime": 0.7827,
+      "eval_samples_per_second": 507.249,
+      "eval_steps_per_second": 5.111,
+      "step": 3
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 15,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 1.2384503866699776e+17,
+  "train_batch_size": 128,
+  "trial_name": null,
+  "trial_params": null
+}
